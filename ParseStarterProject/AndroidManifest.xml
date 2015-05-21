@@ -32,9 +32,14 @@
             android:value="@string/parse_client_key" />
 
         <activity
+<<<<<<< HEAD
             android:name=".Enter"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
+=======
+            android:name=".ParseStarterProjectActivity"
+            android:label="@string/app_name" >
+>>>>>>> f0d600612cf9806b882b5e5b76c5bbdc95ea8cc0
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -43,6 +48,7 @@
         </activity>
         <activity
             android:name=".Ingreso"
+<<<<<<< HEAD
             android:label="@string/title_activity_ingreso"
             android:screenOrientation="portrait" >
         </activity>
@@ -50,6 +56,13 @@
             android:name=".Main"
             android:label="@string/title_activity_main"
             android:screenOrientation="portrait" >
+=======
+            android:label="@string/title_activity_ingreso" >
+        </activity>
+        <activity
+            android:name=".Main"
+            android:label="@string/title_activity_main" >
+>>>>>>> f0d600612cf9806b882b5e5b76c5bbdc95ea8cc0
         </activity>
         <activity
             android:name=".Register"
@@ -57,12 +70,16 @@
         </activity>
         <activity
             android:name=".ProductDescription"
+<<<<<<< HEAD
             android:label="@string/title_activity_product_description"
             android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name=".Barcode"
             android:label="@string/title_activity_barcode" >
+=======
+            android:label="@string/title_activity_product_description" >
+>>>>>>> f0d600612cf9806b882b5e5b76c5bbdc95ea8cc0
         </activity>
     </application>
 

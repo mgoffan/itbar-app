@@ -12,5 +12,8 @@
     <string name="title_activity_main">Main</string>
     <string name="title_activity_register">Register</string>
     <string name="title_activity_product_description">ProductDescription</string>
+<<<<<<< HEAD
     <string name="title_activity_barcode">Barcode</string>
+=======
+>>>>>>> f0d600612cf9806b882b5e5b76c5bbdc95ea8cc0
 </resources>
