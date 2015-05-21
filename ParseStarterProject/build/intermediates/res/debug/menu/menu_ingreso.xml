@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" tools:context="com.parse.starter.Ingreso">
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.parse.starter.Enter">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
 </menu>
-<!-- From: file:/F:/Proyecto%20POO/ITBAr/ParseStarterProject/res/menu/menu_ingreso.xml -->
+<!-- From: file:/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr%20LUCAS/ParseStarterProject/res/menu/menu_ingreso.xml -->

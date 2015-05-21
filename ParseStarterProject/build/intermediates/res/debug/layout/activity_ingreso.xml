@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:id="@+id/back"
     android:background="#ffffffff">
 
@@ -9,12 +9,12 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/usuariotxt"
-        android:hint="Usuario"
-        android:typeface="monospace"
+        android:typeface="normal"
         android:layout_marginTop="200dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:maxLength="5" />
+        android:maxLength="5"
+        android:hint="Legajo" />
 
     <EditText
         android:layout_width="350dp"
@@ -22,11 +22,11 @@
         android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/contratxt"
-        android:hint="Contraseña"
-        android:typeface="monospace"
+        android:typeface="sans"
         android:layout_below="@+id/usuariotxt"
         android:layout_alignLeft="@+id/usuariotxt"
-        android:layout_alignStart="@+id/usuariotxt" />
+        android:layout_alignStart="@+id/usuariotxt"
+        android:hint="Password" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -52,7 +52,8 @@
         android:layout_height="130dp"
         android:id="@+id/imagen"
         android:layout_marginBottom="41dp"
-        android:background="@drawable/idsmall"
+        android:background="@drawable/id"
         android:layout_alignBottom="@+id/usuariotxt"
         android:layout_centerHorizontal="true" />
-</RelativeLayout><!-- From: file:/F:/Proyecto%20POO/ITBAr/ParseStarterProject/res/layout/activity_ingreso.xml -->
+
+</RelativeLayout><!-- From: file:/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr%20LUCAS/ParseStarterProject/res/layout/activity_ingreso.xml -->

@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="F:\Proyecto POO\ITBAr\ParseStarterProject\libs\Parse-1.9.2.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="fe739334780fe321141e62720822c2d456061899">
-        <dex dex="F:\Proyecto POO\ITBAr\ParseStarterProject\build\intermediates\pre-dexed\debug\Parse-1.9.2-0869b632177fb5b53e4421476af8f79753e221df.jar" />
-    </item>
-    <item
-        jar="C:\Users\Kevin\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
-        <dex dex="F:\Proyecto POO\ITBAr\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-82ccf0b027d9949013d050ab29a3bd91984799cd.jar" />
-    </item>
-    <item
-        jar="F:\Proyecto POO\ITBAr\ParseStarterProject\libs\ParseCrashReporting-1.9.2.jar"
+        jar="/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr LUCAS/ParseStarterProject/libs/ParseCrashReporting-1.9.2.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="83f3b1e397f1cc3f05cb9db078d9e364b5f5e218">
-        <dex dex="F:\Proyecto POO\ITBAr\ParseStarterProject\build\intermediates\pre-dexed\debug\ParseCrashReporting-1.9.2-439aec3d2e3f8d1707ca977b3a38da93f078ec09.jar" />
+        <dex dex="/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr LUCAS/ParseStarterProject/build/intermediates/pre-dexed/debug/ParseCrashReporting-1.9.2-a3280d0b40f7c7cd20bf1aa54de6cadd60e3b879.jar" />
+    </item>
+    <item
+        jar="/afs/it.itba.edu.ar/home/kcortesrodrigue/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr LUCAS/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-09b5a4b4a98f6d76e9f5a3db84bbb9e9377929f7.jar" />
+    </item>
+    <item
+        jar="/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr LUCAS/ParseStarterProject/libs/Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr LUCAS/ParseStarterProject/build/intermediates/pre-dexed/debug/Parse-1.9.2-55213edaa38dd3966bae56bf9f8cadf3c91d3d34.jar" />
     </item>
 
 </items>

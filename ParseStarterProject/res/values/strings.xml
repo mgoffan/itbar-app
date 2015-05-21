@@ -11,4 +11,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_main">Main</string>
     <string name="title_activity_register">Register</string>
+    <string name="title_activity_product_description">ProductDescription</string>
+    <string name="title_activity_barcode">Barcode</string>
 </resources>

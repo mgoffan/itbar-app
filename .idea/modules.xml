@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ITBAr.iml" filepath="$PROJECT_DIR$/ITBAr.iml" />
+      <module fileurl="file:///afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr LUCAS/ITBAr LUCAS.iml" filepath="/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr LUCAS/ITBAr LUCAS.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" />
     </modules>
   </component>
