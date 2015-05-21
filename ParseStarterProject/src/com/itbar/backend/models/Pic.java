@@ -20,6 +20,11 @@ public class Pic {
 	private String src = null;
 
 
+	/**
+	 * Instantiates a new Pic.
+	 *
+	 * @param src the src
+	 */
 	public Pic(String src) {
 		this.src = src;
 	}
@@ -29,29 +34,48 @@ public class Pic {
 	/* Getters */
 
 	/**
-	 * @return
+	 * Gets id.
+	 *
+	 * @return id
 	 */
 	public Long getId() {
 		return id;
 	}
 
 	/**
-	 * @return
+	 * Gets menu item.
+	 *
+	 * @return menu item
 	 */
 	public MenuItem getMenuItem() {
 		return menuItem;
 	}
 
+	/**
+	 * Sets menu item.
+	 *
+	 * @param item the item
+	 */
 	public void setMenuItem(MenuItem item) {
 		this.menuItem = item;
 	}
 	
 	/* Setters */
 
+	/**
+	 * Gets src.
+	 *
+	 * @return the src
+	 */
 	public String getSrc() {
 		return src;
 	}
 
+	/**
+	 * Sets src.
+	 *
+	 * @param src the src
+	 */
 	public void setSrc(String src) {
 		this.src = src;
 	}

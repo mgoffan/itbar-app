@@ -6,6 +6,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
+/**
+ * The type Product description.
+ */
 public class ProductDescription extends Activity {
 
     @Override

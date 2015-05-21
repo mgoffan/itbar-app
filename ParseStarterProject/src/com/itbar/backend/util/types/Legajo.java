@@ -10,18 +10,39 @@ public class Legajo extends Field {
 
 	private String legajo;
 
+	/**
+	 * Instantiates a new Legajo.
+	 *
+	 * @param legajo the legajo
+	 */
 	public Legajo(String legajo) {
 		this.legajo = legajo;
 	}
 
+	/**
+	 * Validate format.
+	 *
+	 * @param legajo the legajo
+	 * @return the boolean
+	 */
 	public static Boolean validateFormat(String legajo) {
 		return Formats.LEGAJO.matcher(legajo).matches();
 	}
 
+	/**
+	 * Gets legajo.
+	 *
+	 * @return the legajo
+	 */
 	public String getLegajo() {
 		return legajo;
 	}
 
+	/**
+	 * Sets legajo.
+	 *
+	 * @param legajo the legajo
+	 */
 	public void setLegajo(String legajo) {
 		this.legajo = legajo;
 	}

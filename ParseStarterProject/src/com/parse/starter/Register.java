@@ -14,6 +14,9 @@ import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 
 
+/**
+ * The type Register.
+ */
 public class Register extends Activity {
 
     @Override

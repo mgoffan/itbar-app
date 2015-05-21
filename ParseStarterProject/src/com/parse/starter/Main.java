@@ -17,6 +17,9 @@ import android.widget.Toast;
 import com.parse.ParseUser;
 
 
+/**
+ * The type Main.
+ */
 public class Main extends Activity {
 
     @Override
@@ -48,6 +51,9 @@ public class Main extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * User uI.
+     */
     public void userUI(){
         setTitle("ITBAr - " + ParseUser.getCurrentUser().getUsername());
         TextView menu1 = (TextView) findViewById(R.id.menutitle1txt);
@@ -75,6 +81,11 @@ public class Main extends Activity {
 
     }
 
+    /**
+     * Pressed button menu.
+     *
+     * @param btn the btn
+     */
     public void pressedButtonMenu(Button btn){
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

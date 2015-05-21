@@ -1,32 +1,43 @@
 package com.itbar.backend;
 
-import com.itbar.backend.models.User;
+import com.itbar.backend.controllers.UserController;
 import com.itbar.backend.util.Form;
+import com.itbar.backend.views.User;
 
 /**
- * Singleton
+ * Clase estatica que expone todo el comportamiento del Back End
+ *
+ *
+ *
  * <p/>
  * Created by martin on 20/05/15.
  */
 public class BackEnd {
 
 	private static BackEnd instance = null;
+	private UserController userController = null;
 
 	private BackEnd() {
-		/* init backend */
+		userController = new UserController();
 	}
 
-	public BackEnd getInstance() {
-		if (this.instance == null) {
+	public BackEnd use() {
+		if (instance == null) {
 			instance = new BackEnd();
 		}
-
 		return instance;
 	}
 
+
+	/**
+	 * Create user.
+	 *
+	 * @param form the form
+	 * @return the user
+	 */
 	public User createUser(Form form) {
 
-		if (form.validateFormat()) {
+		if (form.isValid()) {
 
 			User user = new User(form);
 
@@ -42,9 +53,21 @@ public class BackEnd {
 
 	}
 
-	public User logginUser(Form form) {
+	/**
+	 * Login user.
+	 *
+	 * @param form the form
+	 * @return the user
+	 */
+	public User loginUser(Form form) {
 
-		if (form.validateFormat()) {
+		if (userController.userHasLoggedIn()) {
+			userController.logoutUser();
+		}
+
+		if (form.isValid()) {
+
+			return userController.loginUser(form);
 
 
 //			return User.get(form);
@@ -53,4 +76,20 @@ public class BackEnd {
 		return null;
 
 	}
+
+
+	/* App Lifecycle */
+
+	public void lowMemory() {
+
+	}
+
+	public void terminate() {
+
+	}
+
+	public void trimMemory() {
+
+	}
+
 }

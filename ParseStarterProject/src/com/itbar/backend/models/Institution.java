@@ -2,6 +2,9 @@ package com.itbar.backend.models;
 
 import java.util.List;
 
+/**
+ * The type Institution.
+ */
 public class Institution {
 
 	/**
@@ -17,17 +20,31 @@ public class Institution {
 
 	private List<Bar> bars;
 
+	/**
+	 * Instantiates a new Institution.
+	 *
+	 * @param name the name
+	 * @param bar  the bar
+	 */
 	public Institution(String name, Bar bar) {
 		this.name = name;
 		this.bars.add(bar);
 	}
 
+	/**
+	 * Instantiates a new Institution.
+	 *
+	 * @param name the name
+	 * @param bar the bar
+	 */
 	public Institution(String name, Long bar) {
 		this.name = name;
 
 	}
 
 	/**
+	 * Gets name.
+	 *
 	 * @return the name
 	 */
 	public String getName() {
@@ -35,6 +52,8 @@ public class Institution {
 	}
 
 	/**
+	 * Sets name.
+	 *
 	 * @param name the name to set
 	 */
 	public void setName(String name) {
@@ -42,14 +61,18 @@ public class Institution {
 	}
 
 	/**
-	 * @return bars
+	 * Gets bars.
+	 *
+	 * @return bars bars
 	 */
 	public List<Bar> getBars() {
 		return bars;
 	}
 
 	/**
-	 * @param bars
+	 * Sets bars.
+	 *
+	 * @param bars the bars
 	 */
 	public void setBars(List<Bar> bars) {
 		this.bars = bars;

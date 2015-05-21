@@ -16,6 +16,9 @@ import com.parse.ParseAnalytics;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
+/**
+ * The type Parse starter project activity.
+ */
 public class ParseStarterProjectActivity extends Activity {
 	/** Called when the activity is first created. */
 	public void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,9 @@ public class ParseStarterProjectActivity extends Activity {
 	}
 
 
+	/**
+	 * Draw uI.
+	 */
 	public void drawUI(){
 		setContentView(R.layout.activity_ingreso);
 

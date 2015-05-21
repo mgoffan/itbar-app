@@ -5,5 +5,19 @@ package com.itbar.backend.util;
  */
 public interface Formattable {
 
+	/**
+	 * Validate format.
+	 *
+	 * @return the boolean
+	 * @deprecated Usar isValid
+	 */
 	public Boolean validateFormat();
+
+	/**
+	 * Is Valid
+	 *
+	 * @return true/false dependiendo del formato
+	 */
+	public Boolean isValid();
+
 }

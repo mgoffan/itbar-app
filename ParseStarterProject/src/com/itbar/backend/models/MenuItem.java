@@ -3,6 +3,9 @@ package com.itbar.backend.models;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type Menu item.
+ */
 public class MenuItem {
 
 	/**
@@ -18,11 +21,24 @@ public class MenuItem {
 	private List<Pic> pics = new ArrayList<Pic>();
 
 
+	/**
+	 * Instantiates a new Menu item.
+	 *
+	 * @param name the name
+	 * @param desc the desc
+	 */
 	public MenuItem(String name, String desc) {
 		this.name = name;
 		this.description = desc;
 	}
 
+	/**
+	 * Instantiates a new Menu item.
+	 *
+	 * @param name the name
+	 * @param desc the desc
+	 * @param pic the pic
+	 */
 	public MenuItem(String name, String desc, Pic pic) {
 		this.name = name;
 		this.description = desc;
@@ -77,20 +93,35 @@ public class MenuItem {
 	/**
 	 * Settear la descripcion del Item del Menu
 	 *
-	 * @param description
+	 * @param description the description
 	 */
 	public void setDescription(String description) {
 		this.description = description;
 	}
 
+	/**
+	 * Gets pics.
+	 *
+	 * @return the pics
+	 */
 	public List<Pic> getPics() {
 		return pics;
 	}
 
+	/**
+	 * Sets pics.
+	 *
+	 * @param pics the pics
+	 */
 	public void setPics(List<Pic> pics) {
 		this.pics = pics;
 	}
 
+	/**
+	 * Add pic.
+	 *
+	 * @param pic the pic
+	 */
 	public void addPic(Pic pic) {
 		this.pics.add(pic);
 	}

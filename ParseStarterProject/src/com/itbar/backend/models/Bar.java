@@ -1,5 +1,8 @@
 package com.itbar.backend.models;
 
+/**
+ * The type Bar.
+ */
 public class Bar {
 
 	/**
@@ -11,10 +14,20 @@ public class Bar {
 
 	private Institution institution;
 
+	/**
+	 * Gets id.
+	 *
+	 * @return the id
+	 */
 	public Long getId() {
 		return id;
 	}
 
+	/**
+	 * Gets institution.
+	 *
+	 * @return the institution
+	 */
 	public Institution getInstitution() {
 		return institution;
 	}
