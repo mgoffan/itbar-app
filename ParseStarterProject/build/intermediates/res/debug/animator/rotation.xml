@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="-90"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="0" android:fillAfter="true">
+</rotate><!-- From: file:/afs/it.itba.edu.ar/home/kcortesrodrigue/Escritorio/ITBAr%20LUCAS/ParseStarterProject/res/animator/rotation.xml -->
